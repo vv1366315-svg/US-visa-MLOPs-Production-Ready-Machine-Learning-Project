@@ -1,3 +1,4 @@
-from us_visa.logger import logging
+from us_visa.pipeline.training_pipeline import TrainPipeline
 
-logging.info("welcome to our custom log")
+obj = TrainPipeline()
+obj.run_pipeline()
